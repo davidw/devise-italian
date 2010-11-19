@@ -25,6 +25,11 @@ it:
       confirmed: "Il tuo account è stato correttamente confermato. Ora sei collegato."
     registrations:
       sign_up: "Registrati"
+      update: "Aggiorna"
+      unhappy: "Scontento?"
+      cancel_my_account: "Cancellare il mio account"
+      confirm: "Sei sicuro?"
+      back: "Indietro"
       signed_up: "Iscrizione correttamente eseguita. Se abilitata, una conferma è stata inviata al tuo indirizzo email."
       updated: "Il tuo account è stato aggiornato."
       destroyed: "Arrivederci! L'account è stato cancellato. Speriamo di rivederci presto."
