@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David N. Welton"]
-  s.date = %q{2010-11-17}
+  s.date = %q{2010-11-19}
   s.description = %q{Italian translations for Devise}
   s.email = %q{davidw@dedasys.com}
   s.extra_rdoc_files = [
@@ -19,7 +19,9 @@ Gem::Specification.new do |s|
     "Gemfile",
     "LICENSE",
     "Rakefile",
+    "config/locales/en.yml",
     "config/locales/it.yml",
+    "lib/devise-italian.rb",
     "lib/devise-italian/generators/devise-italian.rb",
     "lib/devise-italian/version.rb"
   ]

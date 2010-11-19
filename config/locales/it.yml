@@ -24,6 +24,7 @@ it:
       send_instructions: "Riceverai un messaggio email con le istruzioni per confermare il tuo account entro qualche minuto."
       confirmed: "Il tuo account è stato correttamente confermato. Ora sei collegato."
     registrations:
+      sign_up: "Registrati"
       signed_up: "Iscrizione correttamente eseguita. Se abilitata, una conferma è stata inviata al tuo indirizzo email."
       updated: "Il tuo account è stato aggiornato."
       destroyed: "Arrivederci! L'account è stato cancellato. Speriamo di rivederci presto."
