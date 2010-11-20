@@ -4,6 +4,9 @@ it:
       not_found: "non trovato"
       already_confirmed: "è stato già confermato"
       not_locked: "non era bloccato"
+      not_saved:
+        one: "Non posso salvare questo %{resource}: 1 errore"
+        other: "Non posso salvare questo %{resource}: %{count} errori."
 
   devise:
     failure:
@@ -18,25 +21,49 @@ it:
       signed_in: "Accesso effettuato con successo."
       signed_out: "Sei uscito correttamente."
     passwords:
+      change_your_password: "Cambia la tua password"
+      new_password: "Nuova password"
+      confirm_new_password: "Conferma la nuova password"
+      change_my_password: "Cambia la mia password"
+      forgot_password?: "Hai dimenticato la password?"
+      send_reset_password_instructions: "Inviami le istruzioni per reimpostare la password"
       send_instructions: "Riceverai un messaggio email con le istruzioni per reimpostare la tua password entro qualche minuto."
       updated: "La tua password è stata cambiata. Ora sei collegato."
     confirmations:
+      resend_instructions: 'Reinvia le istruzioni di conferma'
       send_instructions: "Riceverai un messaggio email con le istruzioni per confermare il tuo account entro qualche minuto."
       confirmed: "Il tuo account è stato correttamente confermato. Ora sei collegato."
     registrations:
       sign_up: "Registrati"
+      edit: "Modifica %{resourcename}"
+      leave_blank: "lasciare vuoto se non si vuole modificare"
+      current_password_label: "inserire la tua password corrente per confermare le modifiche"
       update: "Aggiorna"
       unhappy: "Scontento?"
       cancel_my_account: "Cancellare il mio account"
       confirm: "Sei sicuro?"
       back: "Indietro"
       signed_up: "Iscrizione correttamente eseguita. Se abilitata, una conferma è stata inviata al tuo indirizzo email."
+      inactive_signed_up: 'Iscrizione correttamente eseguita. Tuttavia, non possiamo farti accedere perché il tuo account è %{reason}.'
       updated: "Il tuo account è stato aggiornato."
       destroyed: "Arrivederci! L'account è stato cancellato. Speriamo di rivederci presto."
+    omniauth_callbacks:
+      success: "Autorizzato con successo dall'account %{kind}."
+      failure: 'Non autorizzato da %{kind} perché "%{reason}".'
     unlocks:
       send_instructions: "Riceverai un messaggio email con le istruzioni per sbloccare il tuo account entro qualche minuto."
       unlocked: "Il tuo account è stato correttamente sbloccato. Ora sei collegato."
     mailer:
+      hello: "Benvenuto %{email}!"
+      welcome: "Benvenuto %{email}!"
+      confirm: "Conferma il mio account"
+      change: 'Cambia la mia password'
+      someone_requested: 'Qualcuno ha richiesto il link per modificare la password, è possibile farlo attraverso il link sottostante.'
+      please_ignore: "Se non hai fatto la richiesta, ignora questa email."
+      password_wont_change: "La tua password non sarà modificata finché non accederai al link soprastante e ne creerai una nuova."
+      locked: 'Il tuo account è stato bloccato a causa di un eccessivo numero di tentativi di accesso falliti.'
+      click_to_unlock: 'Clicca sul link sottostante per sbloccare il tuo account:'
+      unlock: 'Sblocca il mio account'
       confirmation_instructions:
         subject: "Istruzioni per la conferma"
       reset_password_instructions:
