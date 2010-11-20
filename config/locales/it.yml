@@ -9,6 +9,9 @@ it:
         other: "Non posso salvare questo %{resource}: %{count} errori."
 
   devise:
+    shared:
+      sign_up: "Registrati"
+      forgot_password: "Hai dimenticato la password?"
     failure:
       unauthenticated: "Devi accedere o registrarti per continuare."
       unconfirmed: "Devi confermare il tuo account per continuare."
@@ -25,7 +28,6 @@ it:
       new_password: "Nuova password"
       confirm_new_password: "Conferma la nuova password"
       change_my_password: "Cambia la mia password"
-      forgot_password?: "Hai dimenticato la password?"
       send_reset_password_instructions: "Inviami le istruzioni per reimpostare la password"
       send_instructions: "Riceverai un messaggio email con le istruzioni per reimpostare la tua password entro qualche minuto."
       updated: "La tua password è stata cambiata. Ora sei collegato."
@@ -34,7 +36,6 @@ it:
       send_instructions: "Riceverai un messaggio email con le istruzioni per confermare il tuo account entro qualche minuto."
       confirmed: "Il tuo account è stato correttamente confermato. Ora sei collegato."
     registrations:
-      sign_up: "Registrati"
       edit: "Modifica %{resourcename}"
       leave_blank: "lasciare vuoto se non si vuole modificare"
       current_password_label: "inserire la tua password corrente per confermare le modifiche"
