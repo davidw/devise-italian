@@ -15,7 +15,7 @@ begin
     s.authors = ['David N. Welton']
     s.files =  FileList["[A-Z]*", "{app,config,lib}/**/*"]
     s.extra_rdoc_files = FileList["[A-Z]*"] - %w(Gemfile Rakefile)
-    s.add_dependency("devise", "> 1.1")
+    s.add_dependency("devise-translated", "> 1.1")
   end
 
   Jeweler::GemcutterTasks.new
