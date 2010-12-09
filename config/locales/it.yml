@@ -10,6 +10,7 @@ it:
 
   devise:
     shared:
+      sign_in: "Accedi"
       sign_up: "Registrati"
       forgot_password: "Hai dimenticato la password?"
     failure:
